@@ -1,9 +1,12 @@
 import React from 'react'
 import NavBar from '../NavBar'
+import { Button } from '@radix-ui/themes';
 
 const IssuesPage = () => {
   return (
-    <div>IssuesPage</div>
+    <div>
+        <Button>New Issue</Button>
+    </div>
   )
 }
 
